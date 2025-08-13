@@ -1,12 +1,35 @@
-# React + Vite
+# 🛍️ Product Pagination with React & Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a **React-based pagination system** with data fetched from the [DummyJSON API](https://dummyjson.com/).  
+It features **page navigation**, **direct page jump**, and a **responsive product card layout** styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demo Preview
+![Pagination Screenshot](<img width="1814" height="857" alt="image" src="https://github.com/user-attachments/assets/8d3d5c51-51de-41fd-ad90-05d975eb25d6" />
+)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+- 📦 Fetches product data from DummyJSON API using **async/await**.
+- 📑 **Pagination controls** with next/previous buttons and direct page number selection.
+- ⌨️ **Direct page jump** via input field.
+- 💅 Styled using **Tailwind CSS** for a clean, responsive layout.
+- 🖼️ Product cards displaying:
+  - Title
+  - Description
+  - Price & Discount
+  - Rating
+  - Brand & Category
+
+---
+
+## 🛠️ Tech Stack
+- **React.js** ⚛️
+- **Tailwind CSS** 🎨
+- **JavaScript (ES6+)**
+- **DummyJSON API**
+
+---
+
